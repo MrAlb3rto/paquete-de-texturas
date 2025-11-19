@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Packs de Minecraft</title>
+    <style>
+        body { font-family: sans-serif; background: #111; color: white; text-align: center; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .card { border: 1px solid #333; background: #222; padding: 20px; margin: 20px 0; border-radius: 8px; display: flex; align-items: center; gap: 20px; }
+        .info { text-align: left; flex-grow: 1; }
+        img { width: 100px; height: 100px; object-fit: cover; border-radius: 5px; background: #444; }
+        
+        /* ESTILO DEL BOTÓN DE DESCARGA */
+        .download-btn { 
+            background-color: #28a745; 
+            color: white; 
+            padding: 10px 20px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold; 
+            cursor: pointer;
+        }
+        .download-btn:hover { background-color: #218838; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Zona de Descargas</h1>
+
+        <div class="card">
+            <img src="foto1.jpg" alt="Pack 1"> 
+            
+            <div class="info">
+                <h2>Pack PvP Ultra</h2>
+                <p>Espadas cortas y FPS boost.</p>
+            </div>
+
+            <a href="./foto.png" class="download-btn" download>DESCARGAR</a>
+        </div>
+        <div class="card">
+            <img src="foto2.jpg" alt="Pack 2">
+            <div class="info">
+                <h2>Pack Survival</h2>
+                <p>Texturas realistas 32x.</p>
+            </div>
+            
+            <a href="./mi-pack-survival.zip" class="download-btn" download>DESCARGAR</a>
+        </div>
+        </div>
+</body>
+</html>
